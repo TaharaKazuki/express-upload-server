@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/TaharaKazuki/express_upload_server#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "consola": "^2.15.3",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
