@@ -17,7 +17,6 @@ app.use('/api/images', imagesRoutes)
 app.use(express.static(path.join(__dirname, './public')))
 
 
-
 const startApp = () => {
   app.listen(PORT, () => success({ badge: true, message: `Server started on port ${PORT}`}))
 }
